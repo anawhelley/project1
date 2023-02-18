@@ -1,0 +1,493 @@
+/* applied to everything */  
+    * {
+        box-sizing: border-box;
+    }
+    body {
+    font-family: 'Caslon 540 LT Std';
+    font-style: normal;
+    color: #000000;
+    background: #F8F4EA;
+    }
+    .link {
+        color: black;
+        text-decoration: none;
+          
+    }
+    .linkspecial {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+/* page 1 */
+    #circular-text {
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+    }
+    #circular-text span{
+    position: absolute;
+    transform-origin: top left;
+    }
+/* page 2 */
+    .paragraph1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    margin: auto;
+    padding-top: 40vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    }
+/* page 3 */
+    .paragraph2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    position: relative;
+    width: 1222px;
+    height: 215px;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    }
+    .paragraph3-1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    position: relative;
+    width: 1003px;
+    height: 29px;
+    padding-bottom: 10vh;
+    }
+    .paragraph3-2 {
+    width: 960px;
+    height: 43px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: right;
+    float:right;
+    }
+    .paragraph4-1 {
+    margin-top: 10vh;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    width: 75vw;
+    }
+    .paragraph4-2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: right;
+    margin-top: 5vh;
+    width: 60vw;
+    float: right;
+    }
+/* page 4 */
+    .paragraph5-1{
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 115px;
+        text-align: center;
+        margin-top: 10vh;
+    }
+    .paragraph5-2{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 68px;
+        line-height: 82px;
+        text-align: center;
+    }
+    .paragraph5-3{
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 77px;
+        text-align: center;
+    }
+    .paragraph5-4{
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+    }
+    .paragraph5-5{
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+    }
+    .paragraph5-6{
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+    }
+    .paragraph5-7{
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 41px;
+        text-align: center;
+    }
+    .paragraph5-8{
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 34px;  
+        text-align: center;
+    }
+    .paragraph5-9{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+    }
+    .svg {
+        text-align: center;
+    }
+/* page 5 */
+    
+/* page 6 */
+    .paragraph9-1 {
+        width: 100vw;
+        margin-bottom: 5vh;
+        margin-top: 15vh;
+        text-align: center;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .container {
+        width: 70vw;
+        height: 35vh;
+        margin: auto;
+        padding: 2vw 2vh;
+    }
+    .item1 {
+        display: inline-block;
+        width: 20vw;
+        height: 30vh;
+        padding: 5px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: justify;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .item2 {
+        display: inline-block;
+        width: 20vw;
+        height: 30vh;
+        padding: 5px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: justify;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .item3 {
+        display: inline-block;
+        width: 20vw;
+        height: 30vh;
+        padding: 5px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: justify;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .paragraph9-2 {
+        width: 100vw;
+        text-align: center;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+    }
+/* page 7 */
+    .paragraph10 {
+        margin: auto;
+        margin-top: 5vh;
+        padding: 2vh;
+        padding: 2vw;
+        font-size: 8vw;
+        text-align: center;
+    }
+    .loud:hover {
+        font-size: 20vh;
+    }
+/* page 8 */
+    .paragraph11-1 {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        width: 70vw;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .paragraph11-2 {
+        display: inline-block;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        width: 25vw;
+        margin-left: 5%;
+        margin-top: 1%;
+        opacity: 0%;
+    }
+    .paragraph11-3 {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 77px;
+        text-align: right;
+        float: right;
+        width: 60vw;
+        margin-right: 5%;
+        margin-top: .5%;
+        opacity: 0%;
+    }
+/* page 9 */
+    .paragraph12 {
+        display: inline-block;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        width: 50vw;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .paragraph13-1 {
+        display: inline-block;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: right;
+        width: 35vw;
+        margin-right: 5%;
+        margin-top: 5%;
+        opacity: 0%;
+        float: right;
+    }
+    .paragraph13-2 {
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 77px;
+        width: 50vw;
+        margin-left: 5%;
+        margin-top: 2%;
+        opacity: 0%;
+    }
+/* page 10 */
+/* page 11 */
+    .holder {
+        width: 100vw;
+        height: 100vh;
+        padding-top: 150px;
+        
+    }
+    .paragraph18-1 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        width: 70vw;
+        margin: auto;
+        padding: 10px;
+    }
+    .paragraph18-2 {
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+        margin: auto;
+        width: 70vw;
+        padding: 10px;
+    }
+    .paragraph18-19 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        margin: auto;
+        width: 70vw;
+        padding: 10px;
+    }
+    .paragraph18-2:hover {font-size: 90px;}
+    .paragraph18-2:hover {line-height: 98px;}
+ 
+/* page 12 */
+    .frame {
+        width: 100vw;
+        height: 100vh;
+        margin: 5vw;
+        background-color: coral;
+    }
+    .paragraph22 {
+        background-color: yellow;
+        margin: auto;
+    
+    }
+    .paragraph23-top {
+        background-color: yellow;
+
+        
+    }
+    .paragraph23-right {
+        background-color: yellow;
+        transform:rotate(90deg);
+        position: relative;
+        
+    }
+    .paragraph23-left {
+        background-color: yellow;
+        
+    }
+    .paragraph23-bottom {
+        background-color: yellow;
+        
+    }
+    .paragraph23-5 {
+        background-color: yellow;
+        
+    }
+/* page 13 */
+    .paragraph24 {
+        width: 100vw;
+        height: 100vh;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 77px;
+        text-align: center;
+        margin: auto;
+        padding: 5%;
+        margin-top: 15%;
+    }
+    .hover {
+        font-weight: bolder;
+    }
+    .hover2 {
+        font-weight: bolder;
+    }
+
+    .beg {
+        display: none;
+    }   
+    .hover:hover ~ .beg {
+        display: block;
+    }
+
+    .end {
+        display: none;
+    }    
+    .hover2:hover ~ .end {
+        display: block;
+    }
+    .doarrow {
+        text-align: center;
+        margin-top: -50vh;
+    }
+    
+    @media (max-width:700px) {
+        .doarrow {
+            margin-top: -20vh;
+        }
+    }
+
+/* page 14 */
+    .page14 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        margin: auto;
+        padding-top: 5vh;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    #showshowfirst {
+        opacity: 0%;
+    }
+    #showshowsecond {
+        opacity: 0%;
+    }
+
+/* page 15 */
+    .black {
+        width: 100vw;
+        height: 100vh;
+    }
+/* page 16 */
+    .cloud {
+        position: relative;
+        width: 756px;
+        height: 172px;
+        top: 193px;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10vh;
+    }
+    .rain {
+        position: relative;
+        width: 800px;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 62px;
+        text-align: center;
+        padding-top: 500px;
+        padding-bottom: 50px;
+        margin: auto;
+    }
+    .bottomwords {
+        position: relative;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        float: bottom;
+        padding: 50px;
+    }
+/* page 17 */
+    .toptext {
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 115px;
+        text-align: center;
+        width: 100vw;
+        margin: auto;
+        padding: 5vh;
+        padding-top: 10vh;
+    }
+    .bottomtext {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        padding: 10vw;
+        padding-top: 0vh;
+        opacity: 0%;
+    }
+/* page 18 */
+    .the-end {
+        font-weight: 400;
+        font-size: 110px;
+        line-height: 132px;
+        text-align: center;
+        margin: auto;
+        padding-top: 40vh;
+    }
