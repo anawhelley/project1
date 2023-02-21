@@ -27,12 +27,6 @@
         margin-left: 23vw;
         margin-top: 5vh;
     }
-    @media (min-width: 400px) {
-        .thefirstbeginning {
-            margin-left: 15vw;
-            margin-top: 20vh;
-        }
-    }
 /* page 2 */
     .paragraph1 {
     text-align: center;
@@ -55,11 +49,11 @@
     margin-bottom: 5vh;
     margin-top: 5vh;
     }
-    @media (min-width: 400px) {
+    /* @media (min-width: 400px) {
         .paragraph2 {
             font-size: 28px;
         }
-    }
+    } */
     .paragraph3-1 {
     font-weight: 400;
     font-size: 24px;
@@ -328,13 +322,13 @@
         font-size: 40px;
         line-height: 48px;
     }
-    @media (min-width: 400px) {
+    /* @media (min-width: 400px) {
         .item1 { width: 15vw; }
         .item1 { margin-right: 5vw; }
         .item2 { width: 15vw; }
         .item2 { margin-right: 5vw; }
         .item3 { width: 15vw; }
-    }
+    } */
 /* page 7 */
     .paragraph10 {
         margin: auto;
@@ -347,12 +341,12 @@
     .loud:hover {
         font-size: 20vh;
     }
-    @media (min-width: 400px) {
+    /* @media (min-width: 400px) {
         .paragraph10 {
             padding: 15vw;
             margin-top: 15vh;
         }
-    }
+    } */
 /* page 8 */
     .paragraph11-1 {
         font-weight: 400;
@@ -493,10 +487,10 @@
         font-size: 20px;
         line-height: 36px;
     }
-    @media (min-width: 400px) {
+    /* @media (min-width: 400px) {
         .letter { margin-left: 15vw; }
         .letter { padding-top: 10vw; }
-    }
+    } */
     
 /* page 11 */
     .holder {
@@ -576,7 +570,7 @@
         margin-top: 60vh;
         margin-left: 70vw;
     }
-    @media (min-width: 400px) {
+    /* @media (min-width: 400px) {
         .frame {
             font-weight: 500;
             font-size: 20px;
@@ -608,7 +602,7 @@
         .paragraph23-5 { 
             margin-top: 20vh; 
         }
-    }
+    } */
     
 /* page 13 */
     .paragraph24 {
@@ -647,7 +641,7 @@
         margin-top: -50vh;
     }
     
-    @media (min-width: 400px) {
+    /* @media (min-width: 400px) {
         .doarrow {
             margin-top: -80vh;
         }
@@ -657,7 +651,7 @@
         .end {
             display: contents;
         }
-    }
+    } */
 
 /* page 14 */
     .page14 {
