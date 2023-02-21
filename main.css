@@ -27,9 +27,10 @@
         margin-left: 23vw;
         margin-top: 5vh;
     }
-    @media (max-width:700px) {
+    @media (min-width: 400px) {
         .thefirstbeginning {
-            margin-left: 10vh;
+            margin-left: 15vw;
+            margin-top: 20vh;
         }
     }
 /* page 2 */
@@ -54,9 +55,9 @@
     margin-bottom: 5vh;
     margin-top: 5vh;
     }
-    @media (max-width:700px) {
+    @media (min-width: 400px) {
         .paragraph2 {
-            font-size: 15px;
+            font-size: 28px;
         }
     }
     .paragraph3-1 {
@@ -327,10 +328,12 @@
         font-size: 40px;
         line-height: 48px;
     }
-    @media (max-width:700px) {
-        .container {
-            padding: 0%;
-        }
+    @media (min-width: 400px) {
+        .item1 { width: 15vw; }
+        .item1 { margin-right: 5vw; }
+        .item2 { width: 15vw; }
+        .item2 { margin-right: 5vw; }
+        .item3 { width: 15vw; }
     }
 /* page 7 */
     .paragraph10 {
@@ -343,6 +346,12 @@
     }
     .loud:hover {
         font-size: 20vh;
+    }
+    @media (min-width: 400px) {
+        .paragraph10 {
+            padding: 15vw;
+            margin-top: 15vh;
+        }
     }
 /* page 8 */
     .paragraph11-1 {
@@ -484,10 +493,9 @@
         font-size: 20px;
         line-height: 36px;
     }
-    @media (max-width:700px) {
-        .letter {
-            margin-left: 10vw;
-        }
+    @media (min-width: 400px) {
+        .letter { margin-left: 15vw; }
+        .letter { padding-top: 10vw; }
     }
     
 /* page 11 */
@@ -568,21 +576,37 @@
         margin-top: 60vh;
         margin-left: 70vw;
     }
-    @media (max-width:700px) {
-        .paragraph23-left {
-            margin-left: -7.5vw;
+    @media (min-width: 400px) {
+        .frame {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 22px;
             margin-top: 20vh;
         }
-    }
-    @media (max-width:700px) {
-        .paragraph23-right {
-            margin-left: 60vw;
-            margin-top: 15vh;
+        .paragraph23-top { 
+            margin-top: 5vh; 
+            text-align: center;
+            margin-left: 0%;
         }
-    }
-    @media (max-width:700px) {
-        .paragraph23-bottom {
-            margin-top: 45vh;
+        .paragraph23-left { 
+            margin-top: 7vh; 
+            margin-left: 2vw;
+        }
+        .paragraph23-right { 
+            margin-top: 8vh; 
+            margin-left: 51.5vw;
+        }
+        .paragraph23-bottom { 
+            margin-top: 17vh; 
+            margin-left: 17vw;
+        }
+        .paragraph22 { 
+            margin-top: 6vh; 
+            width: 300px;
+            margin-left: 31vw;
+        }
+        .paragraph23-5 { 
+            margin-top: 20vh; 
         }
     }
     
@@ -623,9 +647,15 @@
         margin-top: -50vh;
     }
     
-    @media (max-width:700px) {
+    @media (min-width: 400px) {
         .doarrow {
-            margin-top: -20vh;
+            margin-top: -80vh;
+        }
+        .beg {
+            display: contents;
+        }
+        .end {
+            display: contents;
         }
     }
 
